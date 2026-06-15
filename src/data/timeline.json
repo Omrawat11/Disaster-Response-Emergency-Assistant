@@ -1,0 +1,50 @@
+[
+  {
+    "id": "TL-001",
+    "step": 1,
+    "title": "Disaster Detected",
+    "description": "AI-powered sensors detect seismic activity, flood levels, or fire signatures. Satellite imagery confirms threat assessment.",
+    "icon": "Radar",
+    "time": "T+0:00"
+  },
+  {
+    "id": "TL-002",
+    "step": 2,
+    "title": "SOS Generated",
+    "description": "Emergency broadcast sent to all registered devices. Evacuation zones calculated and published in real time.",
+    "icon": "Radio",
+    "time": "T+0:02"
+  },
+  {
+    "id": "TL-003",
+    "step": 3,
+    "title": "Team Assigned",
+    "description": "Nearest rescue teams automatically dispatched. Volunteer network activated with skill-matched assignments.",
+    "icon": "Users",
+    "time": "T+0:05"
+  },
+  {
+    "id": "TL-004",
+    "step": 4,
+    "title": "Resources Deployed",
+    "description": "Emergency supplies, medical equipment, and communication gear transported to staging areas.",
+    "icon": "Truck",
+    "time": "T+0:15"
+  },
+  {
+    "id": "TL-005",
+    "step": 5,
+    "title": "Shelter Activated",
+    "description": "Pre-designated shelters opened with capacity tracking. Real-time occupancy updates broadcast to displaced citizens.",
+    "icon": "Home",
+    "time": "T+0:30"
+  },
+  {
+    "id": "TL-006",
+    "step": 6,
+    "title": "Citizens Rescued",
+    "description": "Search and rescue operations complete. Family reunification services activated. Recovery phase initiated.",
+    "icon": "HeartHandshake",
+    "time": "T+2:00"
+  }
+]

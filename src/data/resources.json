@@ -1,0 +1,47 @@
+[
+  {
+    "id": "RES-001",
+    "name": "Medical Supplies",
+    "current": 78,
+    "target": 100,
+    "unit": "pallets",
+    "status": "adequate",
+    "lastUpdated": "2026-06-15T05:00:00Z"
+  },
+  {
+    "id": "RES-002",
+    "name": "Drinking Water",
+    "current": 45,
+    "target": 100,
+    "unit": "thousand liters",
+    "status": "low",
+    "lastUpdated": "2026-06-15T04:30:00Z"
+  },
+  {
+    "id": "RES-003",
+    "name": "Emergency Rations",
+    "current": 62,
+    "target": 100,
+    "unit": "tons",
+    "status": "moderate",
+    "lastUpdated": "2026-06-15T04:00:00Z"
+  },
+  {
+    "id": "RES-004",
+    "name": "Rescue Equipment",
+    "current": 88,
+    "target": 100,
+    "unit": "kits",
+    "status": "adequate",
+    "lastUpdated": "2026-06-15T03:30:00Z"
+  },
+  {
+    "id": "RES-005",
+    "name": "Emergency Blankets",
+    "current": 34,
+    "target": 100,
+    "unit": "thousand units",
+    "status": "critical",
+    "lastUpdated": "2026-06-15T03:00:00Z"
+  }
+]

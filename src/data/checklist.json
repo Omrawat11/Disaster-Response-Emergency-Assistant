@@ -1,0 +1,35 @@
+[
+  {
+    "id": "CK-001",
+    "category": "Before Disaster",
+    "items": [
+      { "id": "ck-001-1", "text": "Store 3 days of water (1 gallon per person per day)", "checked": false },
+      { "id": "ck-001-2", "text": "Prepare non-perishable food supply (72-hour kit)", "checked": false },
+      { "id": "ck-001-3", "text": "Pack emergency medications and first-aid kit", "checked": false },
+      { "id": "ck-001-4", "text": "Charge all communication devices and backup batteries", "checked": false },
+      { "id": "ck-001-5", "text": "Identify nearest evacuation shelter", "checked": false }
+    ]
+  },
+  {
+    "id": "CK-002",
+    "category": "During Disaster",
+    "items": [
+      { "id": "ck-002-1", "text": "Follow official evacuation routes only", "checked": false },
+      { "id": "ck-002-2", "text": "Stay away from damaged buildings and power lines", "checked": false },
+      { "id": "ck-002-3", "text": "Keep emergency radio tuned to official channels", "checked": false },
+      { "id": "ck-002-4", "text": "Account for all family members", "checked": false },
+      { "id": "ck-002-5", "text": "Do not use elevators during earthquakes", "checked": false }
+    ]
+  },
+  {
+    "id": "CK-003",
+    "category": "After Disaster",
+    "items": [
+      { "id": "ck-003-1", "text": "Check for injuries — administer first aid if safe", "checked": false },
+      { "id": "ck-003-2", "text": "Report damage to local authorities", "checked": false },
+      { "id": "ck-003-3", "text": "Document damage with photos for insurance", "checked": false },
+      { "id": "ck-003-4", "text": "Boil water before drinking if supply may be contaminated", "checked": false },
+      { "id": "ck-003-5", "text": "Register on family reunification services", "checked": false }
+    ]
+  }
+]

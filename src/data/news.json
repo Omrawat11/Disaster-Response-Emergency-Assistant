@@ -1,0 +1,82 @@
+[
+  {
+    "id": "NEWS-001",
+    "headline": "International relief teams arrive in Nepal following 7.1 earthquake",
+    "source": "Global Emergency Network",
+    "timestamp": "2026-06-15T05:30:00Z",
+    "type": "earthquake",
+    "urgency": "high"
+  },
+  {
+    "id": "NEWS-002",
+    "headline": "Mumbai flood barriers holding — water diversion channels activated",
+    "source": "India Disaster Response Authority",
+    "timestamp": "2026-06-15T05:00:00Z",
+    "type": "flood",
+    "urgency": "critical"
+  },
+  {
+    "id": "NEWS-003",
+    "headline": "California wildfire contained to 65% — air tankers redeployed to western front",
+    "source": "US Forest Service",
+    "timestamp": "2026-06-15T04:30:00Z",
+    "type": "wildfire",
+    "urgency": "moderate"
+  },
+  {
+    "id": "NEWS-004",
+    "headline": "Typhoon Anika track shifts south — Manila evacuation zones updated",
+    "source": "PAGASA Weather Service",
+    "timestamp": "2026-06-15T04:00:00Z",
+    "type": "cyclone",
+    "urgency": "critical"
+  },
+  {
+    "id": "NEWS-005",
+    "headline": "Emergency field hospitals deployed across three earthquake-affected districts",
+    "source": "WHO Emergency Division",
+    "timestamp": "2026-06-15T03:30:00Z",
+    "type": "medical",
+    "urgency": "high"
+  },
+  {
+    "id": "NEWS-006",
+    "headline": "Satellite imagery reveals extent of flood damage in Bangladesh delta region",
+    "source": "ESA Earth Observation",
+    "timestamp": "2026-06-15T03:00:00Z",
+    "type": "flood",
+    "urgency": "moderate"
+  },
+  {
+    "id": "NEWS-007",
+    "headline": "3,000 volunteers mobilized for disaster relief operations across Southeast Asia",
+    "source": "Red Cross International",
+    "timestamp": "2026-06-15T02:30:00Z",
+    "type": "rescue",
+    "urgency": "moderate"
+  },
+  {
+    "id": "NEWS-008",
+    "headline": "Seismic monitoring network expanded along Pacific Ring of Fire",
+    "source": "USGS",
+    "timestamp": "2026-06-15T02:00:00Z",
+    "type": "earthquake",
+    "urgency": "low"
+  },
+  {
+    "id": "NEWS-009",
+    "headline": "Emergency supply convoy reaches isolated mountain communities in Peru",
+    "source": "UNICEF",
+    "timestamp": "2026-06-15T01:30:00Z",
+    "type": "rescue",
+    "urgency": "high"
+  },
+  {
+    "id": "NEWS-010",
+    "headline": "AI-powered early warning system detects 94% of aftershock events",
+    "source": "DeepMind Disaster AI",
+    "timestamp": "2026-06-15T01:00:00Z",
+    "type": "technology",
+    "urgency": "low"
+  }
+]

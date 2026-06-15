@@ -1,0 +1,287 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ═══════════════════════════════════════════════════════════════
+   RESCUENET — VOLCANIC CRISIS DESIGN SYSTEM
+   ═══════════════════════════════════════════════════════════════ */
+
+:root {
+  /* Core Palette — Volcanic Crisis */
+  --void:      #06080f;
+  --surface:   #0e1018;
+  --ember:     #C8410A;
+  --crimson:   #7A0F0F;
+  --gold:      #D4A853;
+  --ash:       #E8E0D5;
+  --smoke:     #5C5650;
+  --glass:     rgba(232,224,213,0.04);
+  --border:    rgba(232,224,213,0.08);
+
+  /* Simulation Overrides (activated via data-sim on body) */
+  --sim-accent: var(--ember);
+
+  /* Typography Scale */
+  --font-heading: 'Space Grotesk', sans-serif;
+  --font-body:    'Inter', sans-serif;
+  --font-mono:    'JetBrains Mono', monospace;
+
+  /* Spacing */
+  --section-padding: clamp(3rem, 8vh, 8rem);
+  --container-max: 1400px;
+
+  /* Transitions */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out-sine: cubic-bezier(0.37, 0, 0.63, 1);
+}
+
+/* ── Simulation Color Overrides ────────────────────────────── */
+[data-sim="flood"]      { --sim-accent: #9E5B38; }
+[data-sim="wildfire"]   { --sim-accent: #E84B0A; }
+[data-sim="cyclone"]    { --sim-accent: #8A7560; }
+[data-sim="earthquake"] { --sim-accent: #A67C2E; }
+
+/* ── Base Reset ────────────────────────────────────────────── */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--void);
+  color: var(--ash);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: var(--ember) var(--surface);
+}
+
+body {
+  background: var(--void);
+  min-height: 100vh;
+  overflow-x: hidden;
+  cursor: none;
+}
+
+/* Restore cursor on touch devices */
+@media (pointer: coarse) {
+  body { cursor: auto; }
+}
+
+/* ── Custom Scrollbar ──────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--surface);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--ember);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold);
+}
+
+/* ── Selection ─────────────────────────────────────────────── */
+::selection {
+  background: rgba(200,65,10,0.35);
+  color: var(--ash);
+}
+
+/* ── Typography ────────────────────────────────────────────── */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--ash);
+}
+
+h1 { font-size: clamp(2rem, 6vw, 7rem); }
+h2 { font-size: clamp(1.5rem, 4vw, 3.5rem); }
+h3 { font-size: clamp(1.2rem, 3vw, 2rem); }
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+/* ── Section Base ──────────────────────────────────────────── */
+.section {
+  position: relative;
+  padding: var(--section-padding) 1.5rem;
+  max-width: var(--container-max);
+  margin: 0 auto;
+}
+
+.section-full {
+  position: relative;
+  padding: var(--section-padding) 0;
+  width: 100%;
+}
+
+/* ── Glass Surface ─────────────────────────────────────────── */
+.glass {
+  background: var(--glass);
+  border: 1px solid var(--border);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.glass-strong {
+  background: rgba(232,224,213,0.07);
+  border: 1px solid rgba(232,224,213,0.12);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+}
+
+/* ── Alert Level Borders ───────────────────────────────────── */
+.alert-critical { border-left: 3px solid var(--ember); }
+.alert-high     { border-left: 3px solid var(--gold); }
+.alert-moderate { border-left: 3px solid var(--ash); }
+.alert-safe     { border-left: 3px solid var(--smoke); }
+
+/* ── Gradient Text ─────────────────────────────────────────── */
+.gradient-text {
+  background: linear-gradient(135deg, var(--ember), var(--gold));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── Ember Glow ────────────────────────────────────────────── */
+.glow-ember {
+  box-shadow: 0 0 20px rgba(200,65,10,0.15),
+              0 0 60px rgba(200,65,10,0.05);
+}
+
+.glow-ember-strong {
+  box-shadow: 0 0 30px rgba(200,65,10,0.25),
+              0 0 80px rgba(200,65,10,0.1);
+}
+
+/* ── Utility Animations ────────────────────────────────────── */
+@keyframes borderPulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(200,65,10,0); }
+  50%      { box-shadow: 0 0 12px 2px rgba(200,65,10,0.4); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.animate-border-pulse {
+  animation: borderPulse 2s ease-in-out infinite;
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s var(--ease-out-expo) forwards;
+}
+
+/* ── Responsive Container ──────────────────────────────────── */
+.container-rescue {
+  width: 100%;
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .container-rescue { padding: 0 2rem; }
+}
+
+@media (min-width: 1280px) {
+  .container-rescue { padding: 0 3rem; }
+}
+
+/* ── Canvas Overlays ───────────────────────────────────────── */
+.canvas-container {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.canvas-container canvas {
+  pointer-events: auto;
+}
+
+/* ── Loading Screen ────────────────────────────────────────── */
+.loading-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: var(--void);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ── Scan Line Effect ──────────────────────────────────────── */
+.scan-line {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(200,65,10,0.04) 48%,
+    rgba(200,65,10,0.15) 50%,
+    rgba(200,65,10,0.04) 52%,
+    transparent 100%
+  );
+  background-size: 100% 6px;
+}
+
+/* ── Progress Bar ──────────────────────────────────────────── */
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--ember), var(--gold));
+  border-radius: 999px;
+  transition: width 0.4s var(--ease-out-expo);
+}
+
+/* ── Ticker ────────────────────────────────────────────────── */
+.ticker-track {
+  display: flex;
+  gap: 3rem;
+  white-space: nowrap;
+  will-change: transform;
+}
+
+/* ── R3F Canvas Fix ────────────────────────────────────────── */
+.r3f-canvas {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* ── Disable pointer events when loading ───────────────────── */
+.is-loading {
+  overflow: hidden;
+  pointer-events: none;
+}
+
+/* ── Smooth Reveal ─────────────────────────────────────────── */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.8s var(--ease-out-expo);
+}

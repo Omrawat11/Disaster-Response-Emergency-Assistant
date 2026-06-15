@@ -1,0 +1,122 @@
+[
+  {
+    "id": "SH-001",
+    "name": "Central Relief Center",
+    "location": "Mumbai, India",
+    "coordinates": { "lat": 19.07, "lng": 72.87 },
+    "capacity": 500,
+    "occupied": 342,
+    "facilities": ["medical", "food", "water", "power", "wifi"],
+    "status": "active",
+    "contact": "+91-22-2345-6789",
+    "distance": 2.3
+  },
+  {
+    "id": "SH-002",
+    "name": "Eastside Emergency Shelter",
+    "location": "Manila, Philippines",
+    "coordinates": { "lat": 14.59, "lng": 120.98 },
+    "capacity": 800,
+    "occupied": 712,
+    "facilities": ["medical", "food", "water"],
+    "status": "active",
+    "contact": "+63-2-8765-4321",
+    "distance": 5.1
+  },
+  {
+    "id": "SH-003",
+    "name": "Highland Safe Zone",
+    "location": "Kathmandu, Nepal",
+    "coordinates": { "lat": 27.71, "lng": 85.32 },
+    "capacity": 350,
+    "occupied": 198,
+    "facilities": ["food", "water", "power"],
+    "status": "active",
+    "contact": "+977-1-4567-890",
+    "distance": 8.7
+  },
+  {
+    "id": "SH-004",
+    "name": "Coastal Evacuation Camp",
+    "location": "Jakarta, Indonesia",
+    "coordinates": { "lat": -6.20, "lng": 106.84 },
+    "capacity": 1200,
+    "occupied": 1050,
+    "facilities": ["medical", "food", "water", "power", "wifi", "childcare"],
+    "status": "critical",
+    "contact": "+62-21-9876-5432",
+    "distance": 3.8
+  },
+  {
+    "id": "SH-005",
+    "name": "Mountain View Center",
+    "location": "San Francisco, USA",
+    "coordinates": { "lat": 37.77, "lng": -122.41 },
+    "capacity": 600,
+    "occupied": 124,
+    "facilities": ["medical", "food", "water", "power", "wifi", "pets"],
+    "status": "active",
+    "contact": "+1-415-555-0192",
+    "distance": 12.4
+  },
+  {
+    "id": "SH-006",
+    "name": "South District Camp",
+    "location": "Dhaka, Bangladesh",
+    "coordinates": { "lat": 23.81, "lng": 90.41 },
+    "capacity": 450,
+    "occupied": 380,
+    "facilities": ["food", "water", "medical"],
+    "status": "active",
+    "contact": "+880-2-1234-5678",
+    "distance": 6.2
+  },
+  {
+    "id": "SH-007",
+    "name": "Olympic Stadium Relief Hub",
+    "location": "Tokyo, Japan",
+    "coordinates": { "lat": 35.68, "lng": 139.69 },
+    "capacity": 2000,
+    "occupied": 145,
+    "facilities": ["medical", "food", "water", "power", "wifi", "childcare", "pets"],
+    "status": "standby",
+    "contact": "+81-3-5555-0001",
+    "distance": 15.0
+  },
+  {
+    "id": "SH-008",
+    "name": "Port-side Emergency Zone",
+    "location": "Port-au-Prince, Haiti",
+    "coordinates": { "lat": 18.54, "lng": -72.33 },
+    "capacity": 300,
+    "occupied": 289,
+    "facilities": ["food", "water"],
+    "status": "critical",
+    "contact": "+509-2222-3333",
+    "distance": 1.5
+  },
+  {
+    "id": "SH-009",
+    "name": "Red Crescent Center",
+    "location": "Istanbul, Turkey",
+    "coordinates": { "lat": 41.01, "lng": 28.97 },
+    "capacity": 700,
+    "occupied": 410,
+    "facilities": ["medical", "food", "water", "power", "wifi"],
+    "status": "active",
+    "contact": "+90-212-555-8899",
+    "distance": 9.3
+  },
+  {
+    "id": "SH-010",
+    "name": "Andes Valley Refuge",
+    "location": "Lima, Peru",
+    "coordinates": { "lat": -12.04, "lng": -77.02 },
+    "capacity": 250,
+    "occupied": 178,
+    "facilities": ["food", "water", "medical"],
+    "status": "active",
+    "contact": "+51-1-555-7890",
+    "distance": 7.6
+  }
+]

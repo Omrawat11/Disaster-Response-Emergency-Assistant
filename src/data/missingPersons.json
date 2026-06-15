@@ -1,0 +1,62 @@
+[
+  {
+    "id": "MP-001",
+    "name": "Arjun Mehta",
+    "age": 34,
+    "lastSeen": "Central Market, Kathmandu",
+    "lastSeenDate": "2026-06-15T04:00:00Z",
+    "status": "missing",
+    "description": "Male, 5'9\", black hair, wearing grey jacket and brown boots",
+    "contact": "+977-1-555-0101"
+  },
+  {
+    "id": "MP-002",
+    "name": "Sofia Chen",
+    "age": 28,
+    "lastSeen": "Dharavi District, Mumbai",
+    "lastSeenDate": "2026-06-15T03:30:00Z",
+    "status": "searching",
+    "description": "Female, 5'4\", long dark hair, last seen wearing red dress",
+    "contact": "+91-22-555-0202"
+  },
+  {
+    "id": "MP-003",
+    "name": "Marco Reyes",
+    "age": 45,
+    "lastSeen": "Coastal Road, Manila",
+    "lastSeenDate": "2026-06-15T02:00:00Z",
+    "status": "found",
+    "description": "Male, 5'11\", short hair, construction worker uniform",
+    "contact": "+63-2-555-0303"
+  },
+  {
+    "id": "MP-004",
+    "name": "Priya Sharma",
+    "age": 12,
+    "lastSeen": "School District 4, Dhaka",
+    "lastSeenDate": "2026-06-15T01:45:00Z",
+    "status": "missing",
+    "description": "Female, 4'8\", school uniform — white shirt and navy skirt",
+    "contact": "+880-2-555-0404"
+  },
+  {
+    "id": "MP-005",
+    "name": "Kenji Watanabe",
+    "age": 67,
+    "lastSeen": "Residential Block B, Tokyo",
+    "lastSeenDate": "2026-06-14T23:00:00Z",
+    "status": "found",
+    "description": "Male, 5'6\", gray hair, glasses, walking with cane",
+    "contact": "+81-3-555-0505"
+  },
+  {
+    "id": "MP-006",
+    "name": "Amara Diallo",
+    "age": 22,
+    "lastSeen": "Port District, Port-au-Prince",
+    "lastSeenDate": "2026-06-14T22:00:00Z",
+    "status": "searching",
+    "description": "Female, 5'6\", braided hair, volunteer vest with Red Cross logo",
+    "contact": "+509-555-0606"
+  }
+]

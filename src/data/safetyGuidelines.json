@@ -1,0 +1,72 @@
+[
+  {
+    "id": "SG-001",
+    "type": "flood",
+    "title": "Flood Safety",
+    "icon": "Droplets",
+    "guidelines": [
+      "Move to higher ground immediately when flood warnings are issued",
+      "Never walk, swim, or drive through flood waters — 6 inches of moving water can knock you down",
+      "Disconnect electrical appliances before water reaches your home",
+      "Keep emergency supplies on the highest floor of your building",
+      "After flooding, avoid contact with floodwater — it may be contaminated",
+      "Wait for official all-clear before returning to evacuated areas"
+    ]
+  },
+  {
+    "id": "SG-002",
+    "type": "earthquake",
+    "title": "Earthquake Safety",
+    "icon": "Activity",
+    "guidelines": [
+      "DROP, COVER, and HOLD ON — get under sturdy furniture",
+      "If outdoors, move to an open area away from buildings and power lines",
+      "Do not use elevators during or immediately after an earthquake",
+      "Be prepared for aftershocks — they can be stronger than the initial quake",
+      "Check for gas leaks — if you smell gas, leave immediately",
+      "Keep heavy objects on lower shelves to prevent falling injuries"
+    ]
+  },
+  {
+    "id": "SG-003",
+    "type": "wildfire",
+    "title": "Fire Safety",
+    "icon": "Flame",
+    "guidelines": [
+      "Create a 30-foot defensible space around your home",
+      "Close all windows, doors, and vents to prevent ember entry",
+      "Wear protective clothing — long sleeves, pants, and N95 mask",
+      "Have multiple evacuation routes planned and practiced",
+      "Never attempt to outrun a wildfire on foot — use vehicles on clear roads",
+      "Keep car fueled and facing the exit direction at all times"
+    ]
+  },
+  {
+    "id": "SG-004",
+    "type": "cyclone",
+    "title": "Cyclone Safety",
+    "icon": "Wind",
+    "guidelines": [
+      "Board up windows and secure outdoor objects before the storm",
+      "Move to an interior room on the lowest floor — avoid windows",
+      "Fill bathtubs and containers with water for emergency supply",
+      "Do not go outside during the eye of the storm — winds will return",
+      "Stay away from coastal areas due to storm surge risk",
+      "Monitor official weather updates every 30 minutes"
+    ]
+  },
+  {
+    "id": "SG-005",
+    "type": "medical",
+    "title": "Medical Emergency",
+    "icon": "Heart",
+    "guidelines": [
+      "Call emergency services immediately — provide exact location",
+      "Apply direct pressure to wounds using clean cloth",
+      "Do not move injured persons unless they are in immediate danger",
+      "Begin CPR if the person is unresponsive and not breathing normally",
+      "Keep the person warm and calm until help arrives",
+      "Document medications, allergies, and medical conditions for first responders"
+    ]
+  }
+]

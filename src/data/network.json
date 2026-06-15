@@ -1,0 +1,10 @@
+[
+  { "id": "N-HQ",   "label": "Command HQ",     "x": 400, "y": 300, "type": "hub",     "connections": ["N-SAT","N-MED","N-LOG","N-COM","N-FLD"] },
+  { "id": "N-SAT",  "label": "Satellite Feed",  "x": 200, "y": 120, "type": "sensor",  "connections": ["N-HQ","N-AI"] },
+  { "id": "N-MED",  "label": "Medical Units",   "x": 600, "y": 120, "type": "medical", "connections": ["N-HQ","N-FLD"] },
+  { "id": "N-LOG",  "label": "Logistics Hub",   "x": 200, "y": 480, "type": "supply",  "connections": ["N-HQ","N-SHL"] },
+  { "id": "N-COM",  "label": "Comms Center",    "x": 600, "y": 480, "type": "comms",   "connections": ["N-HQ","N-AI"] },
+  { "id": "N-AI",   "label": "AI Engine",       "x": 400, "y": 100, "type": "ai",      "connections": ["N-SAT","N-COM","N-HQ"] },
+  { "id": "N-FLD",  "label": "Field Teams",     "x": 680, "y": 300, "type": "team",    "connections": ["N-HQ","N-MED","N-SHL"] },
+  { "id": "N-SHL",  "label": "Shelters",        "x": 120, "y": 300, "type": "shelter", "connections": ["N-LOG","N-FLD","N-HQ"] }
+]

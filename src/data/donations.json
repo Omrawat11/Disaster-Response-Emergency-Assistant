@@ -1,0 +1,38 @@
+[
+  {
+    "id": "DON-001",
+    "category": "Food",
+    "icon": "Apple",
+    "raised": 74,
+    "target": 100,
+    "donors": 1247,
+    "impact": "Feeds 12,000 families for 30 days"
+  },
+  {
+    "id": "DON-002",
+    "category": "Medical",
+    "icon": "Stethoscope",
+    "raised": 56,
+    "target": 100,
+    "donors": 892,
+    "impact": "Provides treatment for 8,000 patients"
+  },
+  {
+    "id": "DON-003",
+    "category": "Water",
+    "icon": "Droplets",
+    "raised": 41,
+    "target": 100,
+    "donors": 634,
+    "impact": "Clean water for 20,000 people for 2 weeks"
+  },
+  {
+    "id": "DON-004",
+    "category": "Clothing",
+    "icon": "Shirt",
+    "raised": 88,
+    "target": 100,
+    "donors": 2103,
+    "impact": "Warm clothing for 15,000 displaced families"
+  }
+]
